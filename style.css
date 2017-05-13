@@ -1,0 +1,17 @@
+body {
+	padding: 50px;
+	border: thick;
+}
+img {
+	display: inline-block;
+	vertical-align: center;
+}
+p.pinked{
+	color: pink;
+	width: 70%;
+}
+ul	{
+	font: "helvetica";
+}
+a:visited
+	{color: orange;}
