@@ -1,12 +1,15 @@
 body {
+	min-width: 250px;
 	padding: 50px;
 	border: thick;
 }
 img {
+	max-width: 500px;
 	display: inline-block;
 	vertical-align: center;
 }
 p.pinked{
+	min-width: 150px;
 	color: pink;
 	width: 70%;
 }
@@ -15,3 +18,8 @@ ul	{
 }
 a:visited
 	{color: orange;}
+@media screen and (max-width: 500px) {
+  body {
+    background-color: purple;
+  }
+}
