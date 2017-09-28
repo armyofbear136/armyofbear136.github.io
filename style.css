@@ -1,25 +1,181 @@
-body {
-	min-width: 250px;
-	padding: 50px;
-	border: thick;
+/*
+ * Some Default Styles are provided for your convenience.
+ * You can start adding your own CSS below line 60.
+ */
+
+ body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
 }
+
+p {
+  color: #252525;
+  line-height: 1.5em;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: normal;
+  color: white;
+}
+
+h1, h2, h3, nav {
+  font-family: "Saira Extra Condensed", sans-serif;
+}
+
+/* Responsive images */
 img {
-	max-width: 500px;
-	display: inline-block;
-	vertical-align: center;
+  max-width: 100%;
+  height: auto;
 }
-p.pinked{
-	min-width: 150px;
-	color: pink;
-	width: 70%;
+
+/* Default section styling */
+section {
+  position: relative;
+  width: 100vw;
+  overflow: hidden;
 }
-ul	{
-	font: "helvetica";
+section h2 {
+  text-align: center;
+  position: relative;
+  margin: 60px 0;
 }
-a:visited
-	{color: orange;}
-@media screen and (max-width: 500px) {
-  body {
-    background-color: purple;
-  }
+section h2:after {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  width: 60px;
+  height: 1px;
+  background-color: #f39c12;
+  left: 50%;
+  margin-left: -30px;
 }
+
+/* Header defaults */
+header {
+  background-color: rgba(37, 37, 37, 0.8);
+}
+
+/*
+ * YOUR CSS:
+ */
+
+ #about div {
+   display: flex;
+ }
+
+ #about p {
+   color: white;
+   flex: 3;
+ }
+
+#about #aboutmockup {
+   flex: 2;
+ }
+
+#aboutmockup > img {
+  width: 70%;
+  align-self: flex-end;
+}
+
+.about-image {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 110%;
+  filter:brightness(80%);
+}
+
+/* #carousel {
+  display: flex;
+} */
+
+#carousel-text {
+  text-align: center;
+  color: black;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  padding-top: 15em;
+  z-index: 2;
+}
+
+.carousel-image {
+  /* position: absolute; */
+  z-index: -1;
+  width: 100%;
+  height: 110%;
+}
+
+.carousel-image_top {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 110%;
+}
+
+.carousel-image_dark {
+  /* position: absolute; */
+  z-index: -1;
+  width: 100%;
+  height: 110%;
+  filter:brightness(60%);
+}
+
+.staff-image {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 110%;
+  filter:brightness(70%);
+}
+
+ #staff > div {
+   color: white;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   align-content: space-between;=
+ }
+
+ .staff-profile {
+  box-sizing: border-box;
+  /*width: 33%; */
+  padding: 1em;
+  text-align: center;
+  flex-wrap: wrap;
+  flex: 0 0 33%;
+ }
+
+ .staff-bio {
+   color: white;
+ }
+
+ .staff-profile > i {
+  height: 10em;
+  width: 100%;
+ }
+
+header {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  justify-content: space-between;
+}
+
+nav .nav-item {
+  font-size: 150%;
+  float: right;
+  flex-direction: row;
+  padding: 1em;
+}
+
+nav .nav-item a {
+  color: white;
+}
+

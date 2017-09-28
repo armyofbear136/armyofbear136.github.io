@@ -1,84 +1,112 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Ponyville</title>
-		<link rel="stylesheet" href="style.css" type ="text/css">
-	</head>
-	<body>
-		<img src="images/ponyville.jpg">
-		<p id="pinked"><em><a href="http://2.bp.blogspot.com/-D_mtYInIdBI/UFyve5oIvnI/AAAAAAAA5NA/XyC8clbohac/s1600/1.jpg">Welcome to Ponyville</a> from <a href="blogspot.com">blogspot.com</a></em></p>
-		<h1>Here you'll learn everything about <em>My Little Pony: Friendship is Magic!</em></h1>
-		<h2>These are all of Equestria's magical princess'!</h2>
-		<p ><strong><a href="http://mlp.wikia.com/wiki/Princess_Celestia">Princess Celestia</a></strong></p>
-		<ul>
-			<li>Leader of canterlot</li>
-			<li>Raises the sun</li>
-		</ul>
-		<p id="pinked"><strong><a href="http://mlp.wikia.com/wiki/Princess_Luna">Princess Luna</a></strong></p>
-		<ul>
-			<li>Arbiter of Dreams</li>
-			<li>Formerly Nightmare Moon</li>
-		</ul>
-		<p id="pinked"><strong><a href="http://mlp.wikia.com/wiki/Twilight_Sparkle">Princess Twilight</a></strong></p>
-		<ul>
-			<li>Princess of Friendship</li>
-			<li>Element of Magic</li>
-		</ul>
-		<p id="pinked"><strong><a href="http://mlp.wikia.com/wiki/Princess_Cadance">Princess Cadence</a></strong></p>
-		<ul>
-			<li>Twilight's Foalsitter</li>
-			<li>Element of Love</li>
-		</ul>
-		<em>Princess Magic!</em>
-		<h3>Ranked in terms of magical ability</h3>
-		<ol>
-			<li><em>Twilight Sparkle</em></li>
-			<li><em>Princess Luna</em></li>
-			<li><em>Princess Celestia</em></li>
-			<li><em>Princess Cadence</em></li>
-		</ol>
 
-		<h2>Make your own pony!!!</h2>
-		<form name="ponies" action="success.html" method="post">
-		  <fieldset>
-		  	<div>
-		      <label>Create a pony name!</label>
-		      <input type="text" name="fullname">
-		    </div>
-		    <div>
-		      <label>Pick a Kindom of Equestria!</label>
-		      <select name="kingdom">
-		        <option value="canterlot">Canterlot</option>
-		        <option value="crystal-empire">Crystal Empire</option>
-		        <option value="cloudsdale">Cloudsdale</option>
-		      </select>
-		    </div>
-		    <div>
-		      <label>Pick a Type of Pony!</label>
-		      <select name="race">
-		        <option value="earth">Earth Pony</option>
-		        <option value="pegasus">Pegasus Pony</option>
-		        <option value="unicorn">Unicorn Pony</option>
-		        <option value="alicorn">Alicorn Pony</option>
-		      </select>
-		    </div>
-		      <label>Cutie Mark</label>
-		      <input type="text" name="cutiemark" placeholder="Think up a cutie mark!">
-		    </div>
-		    <div>    
-		      <label>Choose your pony birthday!</label>
-		      <input type="date" name="date">
-		    </div>
-		    <div>
-		    	<textarea name="catchphrase" form="ponies">Pony Catch Phrase!!!</textarea>
-		    </div>
-		    <div>
-		      <input type="checkbox" name="cb-agree" value="agree">
-		      I thought more than I wanted to about ponies today.
-		    </div>
-		  </fieldset>
-		  <button type="submit">Create your pony!</button>
-		</form>
-		<p>After you're comfortable with your pony, visit <a href="https://pony.town/">Pony Town</a> for a really great time!!!</p>
-	</body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Aviatto - Travelling for a better world</title>
+  <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"></link>
+  <script src="index.js" defer></script>
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">
+      <img alt="logo" src="images/poniatto_logo.png" />
+    </div>
+    <nav>
+      <div class="nav-item">
+        <a href="#">About</a>
+      </div>
+      <div class="nav-item">
+        <a href="#">Features</a>
+      </div>
+      <div class="nav-item">
+        <a href="#">Careers</a>
+      </div>
+    </nav>
+  </header>
+
+  <section id="carousel">
+    <img class="carousel-image_top" src="images/bg/brightsun.jpg" />
+    <div id="carousel-text">
+      <h1>Poniatto: Pony Up For A Better World</h1>
+      <h2>Learn More</h2>
+    </div>
+    <img class="carousel-image" src="images/bg/pony2.png" />
+    <img class="carousel-image_dark" src="images/bg/pony1.jpg" />
+  </section>
+
+  <section id="about">
+      <img class="about-image" src="images/bg/underwater.jpg" />
+    <h2>About</h2>
+    <div>
+      <p>
+        Aviatto is a Paradigm shift app for Long tail business-to-business alpha ramen. User experience monetization iPad traction.
+        Entrepreneur non-disclosure agreement traction network effects twitter. Release marketing holy grail equity crowdsource
+        seed money conversion. Ramen handshake accelerator series A financing. Crowdsource startup branding business model
+        canvas ownership. Agile development market release analytics ownership niche market. Non-disclosure agreement founders
+        return on investment iteration leverage agile development. Pivot stock prototype early adopters beta advisor.
+      </p>
+      <div id="aboutmockup">
+        <img src="images/mockup.png" alt="App mockup" />
+      </div>
+    </div>
+  </section>
+
+
+  <section id="staff">
+    <img class="staff-image" src="images/bg/city.jpg" />
+    <h2>Staff:</h2>
+    <div>
+      <div class="staff-profile">
+        <i class="em em-angry headshot"></i>
+        <h3 class="staff-name">Operations Ollie</h3>
+        <p class="staff-bio">While not leading our Operations team, Ollie is busy entertaining his life's true passion: Ice Fishing.
+        </p>
+      </div>
+      <div class="staff-profile">
+        <i class="em em-smile headshot"></i>
+        <h3 class="staff-name">Engineer Yvonne</h3>
+        <p class="staff-bio">Yvonne's favorite languages include Scheme, Rust, Elm, Smalltalk, Haskell and Lisp. Her least favorite languages
+          include whatever she is paid to code in at the time.
+        </p>
+      </div>
+      <div class="staff-profile">
+        <i class="em em-blush headshot"></i>
+        <h3 class="staff-name">Marketing Morrison</h3>
+        <p class="staff-bio">Morrison's life motto: "Always Be Closing". His second life motto: "Apply Deoderant Daily". His third life motto:
+          "Don't forget Mottos 1 and 2."
+        </p>
+      </div>
+
+      <div class="staff-profile">
+        <i class="em em-confused headshot"></i>
+        <h3 class="staff-name">Finance Fran</h3>
+        <p class="staff-bio">Fran loves working with spreadsheets. What doesn't Fran love? Pretty much everything else.
+        </p>
+      </div>
+      <div class="staff-profile">
+        <i class="em em-dizzy_face headshot"></i>
+        <h3 class="staff-name">Designer Dyshawn</h3>
+        <p class="staff-bio">Dyshawn is responsible for creating delightful user experiences and clean, slick product interfaces. No, he will
+          not make the logo bigger.
+        </p>
+      </div>
+      <div class="staff-profile">
+        <i class="em em-grin headshot"></i>
+        <h3 class="staff-name">Executive Ellie</h3>
+        <p class="staff-bio">Ellie dropped out of Princeton during her junior year at age 17. Yes, she will bring this up every chance she gets.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+  </footer>
+</body>
+
 </html>
